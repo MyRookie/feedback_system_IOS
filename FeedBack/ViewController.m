@@ -14,10 +14,24 @@
 
 @implementation ViewController
 
+- (void) setBg:(NSString*) st {
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:st]];
+    
+//    UIImageView* cover = [[UIImageView alloc] initWithFrame:self.view.bounds];
+    UIImage* cover = [UIImage imageNamed:@"Cover_Bg.png"];
+    self.view.layer.contents = (id) cover.CGImage;
+    
+}
+
 - (void)viewDidLoad {
 
+    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"gym" ofType:@"png"];
+    [self setBg:imagePath];
+    
     self->logo = [[Animition alloc] init];
     [self.view addSubview:[self->logo getLogo]];
+    
+    
     
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.

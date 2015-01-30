@@ -55,6 +55,8 @@
 		65F49B561A7BB40F00AC5AB4 /* logo29.png in Resources */ = {isa = PBXBuildFile; fileRef = 65F49B361A7BB40F00AC5AB4 /* logo29.png */; };
 		65F49B571A7BB40F00AC5AB4 /* logo30.png in Resources */ = {isa = PBXBuildFile; fileRef = 65F49B371A7BB40F00AC5AB4 /* logo30.png */; };
 		65F49B581A7BB40F00AC5AB4 /* logo31.png in Resources */ = {isa = PBXBuildFile; fileRef = 65F49B381A7BB40F00AC5AB4 /* logo31.png */; };
+		65F49B5A1A7BD29D00AC5AB4 /* Cover_Bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 65F49B591A7BD29D00AC5AB4 /* Cover_Bg.png */; };
+		65F49B5C1A7BD53200AC5AB4 /* gym.png in Resources */ = {isa = PBXBuildFile; fileRef = 65F49B5B1A7BD53200AC5AB4 /* gym.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +127,9 @@
 		65F49B361A7BB40F00AC5AB4 /* logo29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo29.png; path = Images.xcassets/Feedback.Logo/logo29.png; sourceTree = "<group>"; };
 		65F49B371A7BB40F00AC5AB4 /* logo30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo30.png; path = Images.xcassets/Feedback.Logo/logo30.png; sourceTree = "<group>"; };
 		65F49B381A7BB40F00AC5AB4 /* logo31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo31.png; path = Images.xcassets/Feedback.Logo/logo31.png; sourceTree = "<group>"; };
+		65F49B591A7BD29D00AC5AB4 /* Cover_Bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cover_Bg.png; path = Images.xcassets/FrontPage.Resource/Cover_Bg.png; sourceTree = "<group>"; };
+		65F49B5B1A7BD53200AC5AB4 /* gym.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gym.png; path = Images.xcassets/FrontPage.Resource/gym.png; sourceTree = "<group>"; };
+		65F49B5D1A7BDFD100AC5AB4 /* Afx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Afx.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +171,7 @@
 		65506C7D1A6E4AFE00D1862C /* FeedBack */ = {
 			isa = PBXGroup;
 			children = (
+				65F49B5D1A7BDFD100AC5AB4 /* Afx.h */,
 				65506C821A6E4AFE00D1862C /* AppDelegate.h */,
 				65506C831A6E4AFE00D1862C /* AppDelegate.m */,
 				65506CA71A6E4CBE00D1862C /* RatePage.h */,
@@ -179,6 +185,8 @@
 				65506C881A6E4AFE00D1862C /* Main.storyboard */,
 				65506C8B1A6E4AFE00D1862C /* Images.xcassets */,
 				65506C8D1A6E4AFE00D1862C /* LaunchScreen.xib */,
+				65F49B5B1A7BD53200AC5AB4 /* gym.png */,
+				65F49B591A7BD29D00AC5AB4 /* Cover_Bg.png */,
 				65F49A8C1A7B88CE00AC5AB4 /* b1.png */,
 				65F49A8D1A7B88CE00AC5AB4 /* b2.png */,
 				65F49A8E1A7B88CE00AC5AB4 /* b3.png */,
@@ -328,12 +336,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F49B5C1A7BD53200AC5AB4 /* gym.png in Resources */,
 				65F49B551A7BB40F00AC5AB4 /* logo28.png in Resources */,
 				65F49B581A7BB40F00AC5AB4 /* logo31.png in Resources */,
 				65F49B501A7BB40F00AC5AB4 /* logo23.png in Resources */,
 				65F49B421A7BB40F00AC5AB4 /* logo09.png in Resources */,
 				65F49B4A1A7BB40F00AC5AB4 /* logo17.png in Resources */,
 				65F49B3D1A7BB40F00AC5AB4 /* logo04.png in Resources */,
+				65F49B5A1A7BD29D00AC5AB4 /* Cover_Bg.png in Resources */,
 				65F49A941A7B88CE00AC5AB4 /* b3.png in Resources */,
 				65F49B451A7BB40F00AC5AB4 /* logo12.png in Resources */,
 				65F49B3E1A7BB40F00AC5AB4 /* logo05.png in Resources */,

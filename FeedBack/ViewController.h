@@ -13,6 +13,8 @@
     Animition* logo;
 }
 
+- (void) setBg:(NSString*) st;
+
 
 @end
 
