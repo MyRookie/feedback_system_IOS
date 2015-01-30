@@ -62,9 +62,9 @@
     
     UIImage *thumbImage = [UIImage imageNamed:@"b3.png"];
     newSize = [thumbImage size];
-    [thumbImage drawInRect:CGRectMake(0,0,newSize.width,newSize.height) blendMode:kCGBlendModeClear alpha:0.5];
+    [thumbImage drawInRect:CGRectMake(0,0,newSize.width,newSize.height) blendMode:kCGBlendModeClear alpha:0.0];
     
-    UISlider *sliderA=[[UISlider alloc]initWithFrame:CGRectMake(100, 320+val, 388, 12)];
+    UISlider *sliderA=[[UISlider alloc]initWithFrame:CGRectMake(200, 320+val, 388, 12)];
     sliderA.backgroundColor = [UIColor clearColor];
     sliderA.value= 0.25;
     sliderA.minimumValue=0;
