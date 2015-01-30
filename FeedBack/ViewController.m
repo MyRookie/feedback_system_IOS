@@ -15,6 +15,10 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+
+    self->logo = [[Animition alloc] init];
+    [self.view addSubview:[self->logo getLogo]];
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -25,3 +29,4 @@
 }
 
 @end
+//test commit
